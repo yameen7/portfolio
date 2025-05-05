@@ -6,15 +6,17 @@ import { Code } from "lucide-react"
 export default function Skills() {
   const skills = [
     "JavaScript",
-    "C",
+    "HTML",
+    "CSS",
     "PHP",
     "React",
     "jQuery",
     "Node.js",
     "MySQL",
     "MongoDB",
-    "Next.js",
-    "Magento",
+    "Tailwind",
+    "REST API",
+    "Adobe Commerce(Magento)",
     "Redux",
     "GraphQL",
   ]
