@@ -53,7 +53,7 @@ export default function Projects() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-bold">{project.title}</h3>
-                  {project.link && <Button variant="ghost" size="icon" className="opacity-0 group-hover:opacity-100 transition-opacity">
+                  {project.link && <Button variant="ghost" size="icon" className="opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity">
                     <Link href={project.link} target="_blank"><ExternalLink className="h-4 w-4"></ExternalLink></Link>
                   </Button>}
                 </div>

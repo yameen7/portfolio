@@ -12,13 +12,11 @@ export default function Hero() {
         transition={{ duration: 0.5 }}
         className="flex flex-col items-center justify-center text-center"
       >
-        <div className="relative w-24 h-24 mb-6 overflow-hidden rounded-full bg-muted">
+        <div className="relative w-[15rem] h-[15rem] mb-6 overflow-hidden rounded-full bg-muted">
           <img
-            src="/placeholder.svg?height=96&width=96"
+            src="/profile.jpg"
             alt="Mo Yameen Macchhar"
             className="object-cover"
-            width={96}
-            height={96}
           />
         </div>
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-4">Mo Yameen Macchhar</h1>
@@ -30,15 +28,16 @@ export default function Hero() {
           </div>
           <div className="flex items-center">
             <Mail className="mr-1 h-4 w-4" />
-            <span>myameen033@gmail.com</span>
+            <a href="mailto:myameen033@gmail.com">myameen033@gmail.com</a>
           </div>
           <div className="flex items-center">
             <Phone className="mr-1 h-4 w-4" />
-            <span>+91-7878438184</span>
+            <a href="tel:+917878438184">+91-7878438184</a>
           </div>
           <div className="flex items-center">
             <Linkedin className="mr-1 h-4 w-4" />
-            <span>linkedin/yameen-macchhar</span>
+            <a href="https://linkedin.com/in/yameen-macchhar"
+                target="_blank">linkedin/yameen-macchhar</a>
           </div>
         </div>
       </motion.div>
