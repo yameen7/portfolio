@@ -16,7 +16,7 @@ export default function Skills() {
     "MongoDB",
     "Tailwind",
     "REST API",
-    "Adobe Commerce(Magento)",
+    "Adobe Commerce (Magento)",
     "Redux",
     "GraphQL",
   ]
@@ -43,7 +43,7 @@ export default function Skills() {
               transition={{ duration: 0.3, delay: index * 0.05 }}
               className="flex items-center p-4 rounded-lg border bg-card text-card-foreground shadow-sm"
             >
-              <span>{skill}</span>
+              <span className="line-clamp-2">{skill}</span>
             </motion.div>
           ))}
         </div>

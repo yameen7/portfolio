@@ -12,6 +12,7 @@ import Projects from "@/components/sections/Projects"
 import Education from "@/components/sections/Education"
 import Contact from "@/components/sections/Contact"
 import Footer from "@/components/sections/Footer"
+import Certifications from "@/components/sections/Certifications"
 
 export default function Portfolio() {
   const [loading, setLoading] = useState(true)
@@ -38,6 +39,7 @@ export default function Portfolio() {
             <Experience />
             <Projects />
             <Education />
+            <Certifications />
             <Contact />
             {/* <Footer /> */}
           </main>
