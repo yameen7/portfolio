@@ -42,7 +42,7 @@ export default function Certifications() {
               <div className="p-4">
                 <div className="flex items-center justify-between">
                   <h3 className="text-xl font-bold">{certificate.title}</h3>
-                  {certificate.link && <Button variant="ghost" size="icon" className="opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity">
+                  {certificate.link && <Button name={certificate.title} variant="ghost" size="icon" className="opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity">
                     <Link href={certificate.link} target="_blank"><ExternalLink className="h-4 w-4"></ExternalLink></Link>
                   </Button>}
                 </div>

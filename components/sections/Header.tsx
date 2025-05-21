@@ -55,7 +55,7 @@ export default function Header() {
         </div>
         <div className="">
           <a href={'/Yameen_Resume.pdf'} download>
-            <Button variant="outline" size="sm" className="ml-auto">
+            <Button name="resume_download" variant="outline" size="sm" className="ml-auto">
               Resume
             </Button>
           </a>
