@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion"
 import { MapPin, Mail, Phone, Linkedin } from "lucide-react"
+import prodileImage from '@/app/opengraph-image.jpg';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -13,10 +15,13 @@ export default function Hero() {
         className="flex flex-col items-center justify-center text-center"
       >
         <div className="relative w-[15rem] h-[15rem] mb-6 overflow-hidden rounded-full bg-muted">
-          <img
-            src="/profile.jpg"
+          <Image
+            src={prodileImage}
             alt="Mo Yameen Macchhar"
             className="object-cover"
+            height={300}
+            width={300}
+            priority
           />
         </div>
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-4">Mo Yameen Macchhar</h1>
